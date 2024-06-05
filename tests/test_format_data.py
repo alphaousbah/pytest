@@ -11,10 +11,10 @@ def test_format_data_for_display(people_data: list[dict[str, Any]]) -> None:
 
 
 def test_format_data_for_excel(people_data: list[dict[str, Any]]) -> None:
-    assert (
-        format_data_for_excel(people_data)
-        == """given,family,title
-    Alfonsa,Ruiz,Senior Software Engineer
-    Sayid,Khan,Project Manager
-    """
+    assert format_data_for_excel(people_data) == "\n".join(
+        [
+            "given,family,title",
+            "Alfonsa,Ruiz,Senior Software Engineer",
+            "Sayid,Khan,Project Manager",
+        ]
     )

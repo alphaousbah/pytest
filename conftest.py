@@ -7,24 +7,13 @@ import pytest
 def people_data() -> list[dict[str, Any]]:
     return [
         {
-            "name": "Bob",
-            "age": 35,
-            "gender": "male",
-            "hobbies": ["music", "sports"],
-            "favorite_color": "blue",
+            "given_name": "Alfonsa",
+            "family_name": "Ruiz",
+            "title": "Senior Software Engineer",
         },
         {
-            "name": "Alice",
-            "age": 30,
-            "gender": "female",
-            "hobbies": ["reading", "hiking"],
-            "favorite_color": "green",
-        },
-        {
-            "name": "Charlie",
-            "age": 42,
-            "gender": "male",
-            "hobbies": ["music", "traveling"],
-            "favorite_color": "red",
+            "given_name": "Sayid",
+            "family_name": "Khan",
+            "title": "Project Manager",
         },
     ]
