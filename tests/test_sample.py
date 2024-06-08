@@ -1,7 +1,7 @@
 import pytest
 
 
-@pytest.fixture
+@pytest.fixture  # type: ignore[misc]
 def example_fixture() -> int:
     return 1
 
