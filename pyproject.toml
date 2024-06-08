@@ -2,6 +2,3 @@
 markers = [
     "test_data: marks tests as data related"
 ]
-
-[tool.mypy]
-ignore_missing_imports = "True"
