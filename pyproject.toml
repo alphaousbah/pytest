@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+markers = [
+    "test_data: marks tests as data related"
+]
